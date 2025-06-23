@@ -6410,7 +6410,7 @@ function HasWeeklyBingoJournal() end
 
 function InSanctuary() end
 
-function InternalGetMacroText() end
+-- function InternalGetMacroText() end
 
 function IsAchievementComplete() end
 
