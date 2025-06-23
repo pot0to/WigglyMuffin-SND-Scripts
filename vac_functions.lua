@@ -6396,7 +6396,9 @@ function HasMaxProgress() end
 
 function HasMaxQuality() end
 
-function HasPlugin() end
+function HasPlugin(name)
+    return IPC.IsInstalled(name)
+end
 
 function HasStats() end
 
@@ -6410,7 +6412,7 @@ function HasWeeklyBingoJournal() end
 
 function InSanctuary() end
 
--- function InternalGetMacroText() end
+function InternalGetMacroText() end
 
 function IsAchievementComplete() end
 
